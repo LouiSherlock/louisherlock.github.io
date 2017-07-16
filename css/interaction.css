@@ -1,0 +1,140 @@
+body{
+	width: 100%;
+	background: #FFFFFF; 
+}
+#body{
+	width: 100%;
+	background: #FFFFFF;
+}
+#head{
+	width: 100%;
+	height: 100px;
+	background: #FFFFFF;  
+	-moz-box-shadow:2px 6px 9px #d0d0d0; 
+	-webkit-box-shadow:2px 6px 9px #d0d0d0; 
+	box-shadow:2px 6px 9px #d0d0d0;
+	position: relative;
+	z-index: 1;
+}
+
+.box{
+	width: 1200px; 
+	margin: 0 auto;
+}
+#head .logo{
+	display: inline-block;
+}
+#head .menu{
+	margin-top: 32px;
+}
+#head .menu li{
+	display: inline-block;
+	margin: 0 6px; 
+	font-size: 20px; 
+}
+#head .menu li a{ 
+	color: #4f4f4f;
+	padding: 4px; 
+	transition: color 0.5s;
+}
+#head .menu li a:hover{ 
+	color: #EE4000; 
+}
+ 
+
+#content{
+	height: 700px;
+	width: 100%;
+	background: #f8f5f1;
+	padding-bottom: 50px;
+}
+#content .title h1{
+	text-align: center;
+	font-size:30px ;
+	padding-top: 35px;
+	color: #EE4000; 
+	margin-bottom: 2.5em;
+}
+#content .show_box {
+	width: 1200px;
+	margin: auto;
+	position: relative;
+}
+#content .show_box  h2{
+	display: inline-block;
+	color: #EE4000;
+	font-weight: 400;
+	vertical-align: top;
+	padding-right: 20px;
+}
+#content .show_box .tit{
+	text-align: center;
+	margin: 20px 0;
+}
+#content .show_box .con{
+	text-align: center;
+	margin: 20px 0;
+}
+#content .show_box .tit input{
+	height: 45px;
+	width: 600px;
+	border: 1px solid #EE4000;
+	background: transparent;
+	padding:0 0.5em;
+	font-size: 1.1em;
+}
+#content .show_box .con textarea{
+	min-height: 200px;
+	min-width: 600px;
+	max-width: 600px;
+	max-height:250px ;
+	border: 1px solid #EE4000;
+	background: transparent;
+	padding: 0.5em;
+	font-size: 1.1em;
+	font-family: "微软雅黑";
+}
+.subimt{
+	width: 110px;
+	height: 40px;
+	background-color: #EE4000;
+	color: #fff;
+	border: 1px solid #EE4000;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+	position: absolute;
+	right: 50%;
+	margin-right:-55px ;
+	margin-top: 1em;
+	transition: background-color 0.5s ease-in-out;
+}
+.subimt:hover{
+	width: 110px;
+	height: 40px;
+	background-color: #FFF6F0;
+	color: #EE4000;
+	border: 1px solid #EE4000;
+}
+
+
+#footer{
+	width: 100%;
+	height: 100px;  
+	opacity: 0.8;
+} 
+.footer_box{
+	height: 100%;
+	position: relative;
+}
+
+.footer_box:first-child{
+	padding-top: 15px;
+}
+.footer_box p{
+	color: #4F4F4F; 
+	text-align: center;
+	padding-top: 10px; 
+	
+}
+ 
